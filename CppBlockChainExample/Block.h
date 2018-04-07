@@ -14,9 +14,9 @@
 
 using namespace std;
 
-class Block{
+class Block
+{
 public:
-    //string transactionPrevHash;
     Block(uint32_t transactionIndexIn, const string &transactionDataIn);
     string GetTransactionHash();
     void SetTransactionPrevHash(const string &transactionPrevHashIn);
